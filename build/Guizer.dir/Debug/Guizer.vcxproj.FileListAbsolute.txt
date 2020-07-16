@@ -1,0 +1,2 @@
+C:\Users\Tafadzwa Nyoni\Documents\GitHub\Guizer\build\Debug\Guizer.pdb
+C:\Users\Tafadzwa Nyoni\Documents\GitHub\Guizer\build\Guizer.dir\Debug\Guizer.pdb
