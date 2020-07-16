@@ -1,0 +1,29 @@
+Start testing: Jul 16 23:05 South Africa Standard Time
+----------------------------------------------------------
+1/1 Testing: GuizerTests
+1/1 Test: GuizerTests
+Command: "C:/Users/Tafadzwa Nyoni/Documents/GitHub/Guizer/build/test/Debug/GuizerTests.exe"
+Directory: C:/Users/Tafadzwa Nyoni/Documents/GitHub/Guizer/build/test
+"GuizerTests" start time: Jul 16 23:05 South Africa Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\Tafadzwa Nyoni\Documents\GitHub\Guizer\googletest\googletest\src\gtest_main.cc
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GuizerTests
+[ RUN      ] GuizerTests.DemonstrateTestMacros
+[       OK ] GuizerTests.DemonstrateTestMacros (0 ms)
+[----------] 1 test from GuizerTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.55 sec
+----------------------------------------------------------
+Test Passed.
+"GuizerTests" end time: Jul 16 23:05 South Africa Standard Time
+"GuizerTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jul 16 23:05 South Africa Standard Time
