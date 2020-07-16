@@ -169,21 +169,13 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Tafadzwa Nyoni\Documents\GitHub\Guizer\build\Guizer.vcxproj">
-      <Project>{D6EA6A75-6D1B-3427-B2E9-011459238393}</Project>
-      <Name>Guizer</Name>
+    <ProjectReference Include="C:\Users\Tafadzwa Nyoni\Documents\GitHub\Guizer\build\Uri\Uri.vcxproj">
+      <Project>{02F8BA88-CC31-393E-8FEE-B4622AA209A4}</Project>
+      <Name>Uri</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Tafadzwa Nyoni\Documents\GitHub\Guizer\build\test\GuizerTests.vcxproj">
-      <Project>{3D9A4FBC-3ABE-3524-91FB-DA1DA7DDE807}</Project>
-      <Name>GuizerTests</Name>
-    </ProjectReference>
-    <ProjectReference Include="C:\Users\Tafadzwa Nyoni\Documents\GitHub\Guizer\build\googletest\googlemock\gmock.vcxproj">
-      <Project>{70A74BDF-2F79-3551-BC8C-C9B5F39DAE5D}</Project>
-      <Name>gmock</Name>
-    </ProjectReference>
-    <ProjectReference Include="C:\Users\Tafadzwa Nyoni\Documents\GitHub\Guizer\build\googletest\googlemock\gmock_main.vcxproj">
-      <Project>{EE07E857-570D-3992-B4B2-B636FD5A71E5}</Project>
-      <Name>gmock_main</Name>
+    <ProjectReference Include="C:\Users\Tafadzwa Nyoni\Documents\GitHub\Guizer\build\Uri\test\UriTests.vcxproj">
+      <Project>{D584E671-9A8E-3CDA-B65F-9ED85788A190}</Project>
+      <Name>UriTests</Name>
     </ProjectReference>
     <ProjectReference Include="C:\Users\Tafadzwa Nyoni\Documents\GitHub\Guizer\build\googletest\googletest\gtest.vcxproj">
       <Project>{84EB7EC3-2C8F-32FD-A626-550779420999}</Project>

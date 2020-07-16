@@ -169,14 +169,6 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Tafadzwa Nyoni\Documents\GitHub\Guizer\build\googletest\googlemock\gmock.vcxproj">
-      <Project>{70A74BDF-2F79-3551-BC8C-C9B5F39DAE5D}</Project>
-      <Name>gmock</Name>
-    </ProjectReference>
-    <ProjectReference Include="C:\Users\Tafadzwa Nyoni\Documents\GitHub\Guizer\build\googletest\googlemock\gmock_main.vcxproj">
-      <Project>{EE07E857-570D-3992-B4B2-B636FD5A71E5}</Project>
-      <Name>gmock_main</Name>
-    </ProjectReference>
     <ProjectReference Include="C:\Users\Tafadzwa Nyoni\Documents\GitHub\Guizer\build\googletest\googletest\gtest.vcxproj">
       <Project>{84EB7EC3-2C8F-32FD-A626-550779420999}</Project>
       <Name>gtest</Name>

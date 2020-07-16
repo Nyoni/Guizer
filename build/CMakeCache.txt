@@ -15,7 +15,10 @@
 ########################
 
 //Builds the googlemock subproject
-BUILD_GMOCK:BOOL=ON
+BUILD_GMOCK:BOOL=OFF
+
+//Builds the googletest subproject
+BUILD_GTEST:BOOL=ON
 
 //Path to a program.
 CMAKE_AR:FILEPATH=C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/bin/Hostx64/x64/lib.exe
@@ -75,9 +78,6 @@ CMAKE_EXE_LINKER_FLAGS_RELEASE:STRING=/INCREMENTAL:NO
 
 //Flags used by the linker during RELWITHDEBINFO builds.
 CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO:STRING=/debug /INCREMENTAL
-
-//No help, variable specified on the command line.
-CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE
 
 //User executables (bin)
 CMAKE_INSTALL_BINDIR:PATH=bin
@@ -154,7 +154,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELEASE:STRING=/INCREMENTAL:NO
 CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO:STRING=/debug /INCREMENTAL
 
 //Path to a program.
-CMAKE_MT:FILEPATH=C:/Program Files (x86)/Windows Kits/10/bin/10.0.18362.0/x64/mt.exe
+CMAKE_MT:FILEPATH=CMAKE_MT-NOTFOUND
 
 //Value Computed by CMake
 CMAKE_PROJECT_DESCRIPTION:STATIC=
@@ -181,7 +181,7 @@ CMAKE_PROJECT_VERSION_PATCH:STATIC=0
 CMAKE_PROJECT_VERSION_TWEAK:STATIC=
 
 //RC compiler
-CMAKE_RC_COMPILER:FILEPATH=C:/Program Files (x86)/Windows Kits/10/bin/10.0.18362.0/x64/rc.exe
+CMAKE_RC_COMPILER:FILEPATH=rc
 
 //Flags for Windows Resource Compiler during all build types.
 CMAKE_RC_FLAGS:STRING=-DWIN32
@@ -264,14 +264,8 @@ INSTALL_GTEST:BOOL=ON
 //Path to a program.
 PYTHON_EXECUTABLE:FILEPATH=C:/Users/Tafadzwa Nyoni/AppData/Local/Programs/Python/Python38/python.exe
 
-//Value Computed by CMake
-gmock_BINARY_DIR:STATIC=C:/Users/Tafadzwa Nyoni/Documents/GitHub/Guizer/build/googletest/googlemock
-
-//Value Computed by CMake
-gmock_SOURCE_DIR:STATIC=C:/Users/Tafadzwa Nyoni/Documents/GitHub/Guizer/googletest/googlemock
-
-//Build all of Google Mock's own tests.
-gmock_build_tests:BOOL=OFF
+//Link with runtime library staically
+RUNTIME_STATIC_LINKAGE:BOOL=OFF
 
 //Value Computed by CMake
 googletest-distribution_BINARY_DIR:STATIC=C:/Users/Tafadzwa Nyoni/Documents/GitHub/Guizer/build/googletest
@@ -368,7 +362,7 @@ CMAKE_GENERATOR_INSTANCE:INTERNAL=C:/Program Files (x86)/Microsoft Visual Studio
 //Name of generator platform.
 CMAKE_GENERATOR_PLATFORM:INTERNAL=x64
 //Name of generator toolset.
-CMAKE_GENERATOR_TOOLSET:INTERNAL=host=x64
+CMAKE_GENERATOR_TOOLSET:INTERNAL=
 //Have include pthread.h
 CMAKE_HAVE_PTHREAD_H:INTERNAL=
 //Source directory with the top level CMakeLists.txt file for this
@@ -474,8 +468,6 @@ PYTHON_EXECUTABLE-ADVANCED:INTERNAL=1
 //CMAKE_INSTALL_PREFIX during last run
 _GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=C:/Program Files (x86)/Guizer
 generated_dir:INTERNAL=C:/Users/Tafadzwa Nyoni/Documents/GitHub/Guizer/build/googletest/googletest/generated
-//ADVANCED property for variable: gmock_build_tests
-gmock_build_tests-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: gtest_build_samples
 gtest_build_samples-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: gtest_build_tests

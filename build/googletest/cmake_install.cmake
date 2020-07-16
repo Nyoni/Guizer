@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/Tafadzwa Nyoni/Documents/GitHub/Guizer/build/googletest/googlemock/cmake_install.cmake")
+  include("C:/Users/Tafadzwa Nyoni/Documents/GitHub/Guizer/build/googletest/googletest/cmake_install.cmake")
 
 endif()
 

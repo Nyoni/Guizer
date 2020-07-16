@@ -1,3 +1,29 @@
-Start testing: Jul 16 23:05 South Africa Standard Time
+Start testing: Jul 17 01:34 South Africa Standard Time
 ----------------------------------------------------------
-End testing: Jul 16 23:05 South Africa Standard Time
+1/1 Testing: UriTests
+1/1 Test: UriTests
+Command: "C:/Users/Tafadzwa Nyoni/Documents/GitHub/Guizer/build/Uri/test/Debug/UriTests.exe"
+Directory: C:/Users/Tafadzwa Nyoni/Documents/GitHub/Guizer/build/Uri/test
+"UriTests" start time: Jul 17 01:34 South Africa Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\Tafadzwa Nyoni\Documents\GitHub\Guizer\googletest\googletest\src\gtest_main.cc
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from UriTests
+[ RUN      ] UriTests.Placeholder
+[       OK ] UriTests.Placeholder (0 ms)
+[----------] 1 test from UriTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (5 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.42 sec
+----------------------------------------------------------
+Test Passed.
+"UriTests" end time: Jul 17 01:34 South Africa Standard Time
+"UriTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jul 17 01:34 South Africa Standard Time
